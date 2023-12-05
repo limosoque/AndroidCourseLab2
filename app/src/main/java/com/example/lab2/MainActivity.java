@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         shoppingRecyclerView.setAdapter(shoppingAdapter);
         shoppingRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // бинд кнопки добавления информации
+        // бинд кнопки показа справки
         findViewById(R.id.infoButton).setOnClickListener(view -> {
             Toast.makeText(getApplicationContext(),
                     "Нажатие на элемент - изменение\nДлительное нажатие - удаление",
